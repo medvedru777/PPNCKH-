@@ -1,0 +1,19 @@
+Set-Content -Path ".gitignore" -Value @"
+# Bỏ qua môi trường ảo chứa thư viện
+.venv/
+venv/
+env/
+
+# Bỏ qua dữ liệu thô và đã xử lý (chỉ giữ lại cấu trúc thư mục)
+data/*
+!data/.gitkeep
+
+# Bỏ qua cache Python và file rác hệ thống
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+"@
+
+# Tạo file .gitkeep để Git vẫn giữ lại thư mục data trống
+New-Item -ItemType File -Force -Path "data\.gitkeep"
