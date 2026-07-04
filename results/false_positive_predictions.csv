@@ -1,0 +1,3 @@
+header_coff_timestamp,header_optional_sizeof_code,header_optional_sizeof_headers,sections_count,api_calls_count,true_label,predicted_label,predicted_prob
+708992537,333312,1024,10,12,0,1,0.69363177
+708992537,283648,1024,8,14,0,1,0.9719126
