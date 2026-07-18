@@ -41,7 +41,3 @@ Chúng tôi sử dụng bộ phân loại **XGBoost** kết hợp với phương
 - **Độ chính xác (Accuracy)**: 95.50%.
 - **Phân tích SHAP**: Nhóm đặc trưng **PE Header** có đóng góp vào quyết định phân loại mạnh hơn gấp **8.4 lần** so với số lượng API Import.
 - **Phân tích Dương tính giả**: Phát hiện hiện tượng mô phỏng cấu trúc (structural mimicry) giữa phần mềm an toàn và mã độc.
-
-## 📝 Tác giả
-- **Học viên**: medvedru777
-- **Môn học**: Seminar Phương pháp Nghiên cứu An toàn Thông tin"
